@@ -1,0 +1,28 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+
+# Configuración local
+.env
+.env.local
+config.local.php
+
+# Dependencias
+/vendor/
+/node_modules/
+
+# Respaldos
+/backups/
+/backup/
+*.zip
+*.sql
+
+# Archivos de caché
+/cache/
+/tmp/
